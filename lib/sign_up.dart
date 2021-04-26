@@ -38,6 +38,7 @@ class _SignUpState extends State<SignUp> {
                       ),
                       TextFormField(
                         controller: password,
+                        obscureText: true,
                       ),
                     ],
                   ),
